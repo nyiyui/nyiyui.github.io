@@ -44,8 +44,7 @@
   <marker id="arrowhead" markerWidth="5" markerHeight="5" refX="5" refY="2.5" orient="auto">
     <polygon points="0 0, 5 2.5, 0 5" />
   </marker>
-</defs><path d="M20 10 L10 10 L10 20 L10 30" stroke="#000" fill="none" marker-start="url(#arrowhead)" marker-end="url(#arrowhead)" /><path d="M10 20 l10 0
-" stroke-dasharray="1,1" stroke="#000" fill="none" /><circle cx="10" cy="10" r="1" stroke="#000" fill="#fff" /><circle cx="20" cy="10" r="1" stroke="#000" fill="#fff" /><circle cx="10" cy="20" r="1" stroke="#000" fill="#fff" /><circle cx="20" cy="20" r="1" stroke="#000" fill="#fff" /><circle cx="10" cy="30" r="1" stroke="#000" fill="#fff" /><circle cx="20" cy="30" r="1" stroke="#000" fill="#fff" /></svg></td></tr>
+</defs><path d="M20 10 L10 10 L10 20 L10 30" stroke="#000" fill="none" marker-start="url(#arrowhead)" marker-end="url(#arrowhead)" /><circle cx="10" cy="10" r="1" stroke="#000" fill="#fff" /><circle cx="20" cy="10" r="1" stroke="#000" fill="#fff" /><circle cx="10" cy="20" r="1" stroke="#000" fill="#fff" /><circle cx="20" cy="20" r="1" stroke="#000" fill="#fff" /><circle cx="10" cy="30" r="1" stroke="#000" fill="#fff" /><circle cx="20" cy="30" r="1" stroke="#000" fill="#fff" /></svg></td></tr>
 <tr id="key-G"><td><a href="#key-G">G</a></td><td><svg class="diagram" viewBox="0 0 40 50" xmlns="http://www.w3.org/2000/svg"><defs>
   <marker id="arrowhead" markerWidth="5" markerHeight="5" refX="5" refY="2.5" orient="auto">
     <polygon points="0 0, 5 2.5, 0 5" />
@@ -55,8 +54,7 @@
   <marker id="arrowhead" markerWidth="5" markerHeight="5" refX="5" refY="2.5" orient="auto">
     <polygon points="0 0, 5 2.5, 0 5" />
   </marker>
-</defs><path d="M10 10 L10 20 L20 20 L20 30" stroke="#000" fill="none" marker-start="url(#arrowhead)" marker-end="url(#arrowhead)" /><path d="M10 20 l0 10
-" stroke-dasharray="1,1" stroke="#000" fill="none" /><circle cx="10" cy="10" r="1" stroke="#000" fill="#fff" /><circle cx="20" cy="10" r="1" stroke="#000" fill="#fff" /><circle cx="10" cy="20" r="1" stroke="#000" fill="#fff" /><circle cx="20" cy="20" r="1" stroke="#000" fill="#fff" /><circle cx="10" cy="30" r="1" stroke="#000" fill="#fff" /><circle cx="20" cy="30" r="1" stroke="#000" fill="#fff" /></svg></td></tr>
+</defs><path d="M10 10 L10 20 L20 20 L20 30" stroke="#000" fill="none" marker-start="url(#arrowhead)" marker-end="url(#arrowhead)" /><circle cx="10" cy="10" r="1" stroke="#000" fill="#fff" /><circle cx="20" cy="10" r="1" stroke="#000" fill="#fff" /><circle cx="10" cy="20" r="1" stroke="#000" fill="#fff" /><circle cx="20" cy="20" r="1" stroke="#000" fill="#fff" /><circle cx="10" cy="30" r="1" stroke="#000" fill="#fff" /><circle cx="20" cy="30" r="1" stroke="#000" fill="#fff" /></svg></td></tr>
 <tr id="key-I"><td><a href="#key-I">I</a></td><td><svg class="diagram" viewBox="0 0 40 50" xmlns="http://www.w3.org/2000/svg"><defs>
   <marker id="arrowhead" markerWidth="5" markerHeight="5" refX="5" refY="2.5" orient="auto">
     <polygon points="0 0, 5 2.5, 0 5" />
@@ -118,8 +116,7 @@
   <marker id="arrowhead" markerWidth="5" markerHeight="5" refX="5" refY="2.5" orient="auto">
     <polygon points="0 0, 5 2.5, 0 5" />
   </marker>
-</defs><path d="M10 10 L20 10 L20 20 L20 30" stroke="#000" fill="none" marker-start="url(#arrowhead)" marker-end="url(#arrowhead)" /><path d="M20 10 l10 0
-" stroke-dasharray="1,1" stroke="#000" fill="none" /><circle cx="10" cy="10" r="1" stroke="#000" fill="#fff" /><circle cx="20" cy="10" r="1" stroke="#000" fill="#fff" /><circle cx="10" cy="20" r="1" stroke="#000" fill="#fff" /><circle cx="20" cy="20" r="1" stroke="#000" fill="#fff" /><circle cx="10" cy="30" r="1" stroke="#000" fill="#fff" /><circle cx="20" cy="30" r="1" stroke="#000" fill="#fff" /></svg></td></tr>
+</defs><path d="M10 10 L20 10 L20 20 L20 30" stroke="#000" fill="none" marker-start="url(#arrowhead)" marker-end="url(#arrowhead)" /><circle cx="10" cy="10" r="1" stroke="#000" fill="#fff" /><circle cx="20" cy="10" r="1" stroke="#000" fill="#fff" /><circle cx="10" cy="20" r="1" stroke="#000" fill="#fff" /><circle cx="20" cy="20" r="1" stroke="#000" fill="#fff" /><circle cx="10" cy="30" r="1" stroke="#000" fill="#fff" /><circle cx="20" cy="30" r="1" stroke="#000" fill="#fff" /></svg></td></tr>
 <tr id="key-U"><td><a href="#key-U">U</a></td><td><svg class="diagram" viewBox="0 0 40 50" xmlns="http://www.w3.org/2000/svg"><defs>
   <marker id="arrowhead" markerWidth="5" markerHeight="5" refX="5" refY="2.5" orient="auto">
     <polygon points="0 0, 5 2.5, 0 5" />
