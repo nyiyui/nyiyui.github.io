@@ -1,0 +1,34 @@
+<html>
+            <body>
+                    v3
+                    <textarea id="a"></textarea>
+                    <br />
+                    <textarea id="log" rows="20" cols="80"></textarea>
+            </body>
+            <script>
+                    let a = document.getElementById('a');
+                    let log = document.getElementById('log');
+                    a.addEventListener('beforeinput', (e) => {
+                            log.value += `beforeinput\n`;
+                    });
+                    a.addEventListener('input', (e) => {
+                            log.value += `data=${e.data} type=${e.inputType}\n`;
+                    });
+                    a.addEventListener('compositionstart', (e) => {
+                            log.value += `compositionstart\n`;
+                    });
+                    a.addEventListener('compositionend', (e) => {
+                            log.value += `compositionend\n`;
+                    });
+                    a.addEventListener('compositionupdate', (e) => {
+                            log.value += `compositionupdate\n`;
+                    });
+                    a.addEventListener('keydown', (e) => {
+                            log.value += `isComposing=${e.isComposing} code=${e.code} `;
+                            log.value += `charCode=${e.charCode} `;
+                            log.value += `code=${e.code} `;
+                            log.value += `key=${e.key} `;
+                            log.value += `\n`;
+                    });
+            </script>
+    </html>
