@@ -9,7 +9,7 @@
                     let a = document.getElementById('a');
                     let log = document.getElementById('log');
                     a.addEventListener('beforeinput', (e) => {
-                            log.value += `beforeinput\n`;
+                            log.value += `beforeinput type=${e.type} inputType=${e.inputType} code=${e.code}\n`;
                     });
                     a.addEventListener('input', (e) => {
                             log.value += `data=${e.data} type=${e.inputType}\n`;
