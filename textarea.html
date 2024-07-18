@@ -3,7 +3,7 @@
                     v4
                     <textarea id="a"></textarea>
                     <br />
-                    <textarea id="log" rows="20" cols="80"></textarea>
+                    <textarea id="log" rows="30" cols="80"></textarea>
             </body>
             <script>
                     let a = document.getElementById('a');
@@ -12,7 +12,7 @@
                             log.value += `beforeinput type=${e.type} inputType=${e.inputType} code=${e.code}\n`;
                     });
                     a.addEventListener('input', (e) => {
-                            log.value += `input data=${e.data} type=${e.inputType} code=${e.code}\n`;
+                            log.value += `input data=${e.data} type=${e.inputType} code=${e.code} keyCode=${e.keyCode}\n`;
                     });
                     a.addEventListener('compositionstart', (e) => {
                             log.value += `compositionstart\n`;
