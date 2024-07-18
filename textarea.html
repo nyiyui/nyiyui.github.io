@@ -12,7 +12,7 @@
                             log.value += `beforeinput type=${e.type} inputType=${e.inputType} code=${e.code}\n`;
                     });
                     a.addEventListener('input', (e) => {
-                            log.value += `data=${e.data} type=${e.inputType}\n`;
+                            log.value += `input data=${e.data} type=${e.inputType} code=${e.code}\n`;
                     });
                     a.addEventListener('compositionstart', (e) => {
                             log.value += `compositionstart\n`;
@@ -24,7 +24,7 @@
                             log.value += `compositionupdate\n`;
                     });
                     a.addEventListener('keydown', (e) => {
-                            log.value += `isComposing=${e.isComposing} code=${e.code} `;
+                            log.value += `keydown isComposing=${e.isComposing} code=${e.code} `;
                             log.value += `charCode=${e.charCode} `;
                             log.value += `code=${e.code} `;
                             log.value += `key=${e.key} `;
