@@ -1,6 +1,6 @@
 <html>
             <body>
-                    v7
+                    v7a
                     <textarea id="a"></textarea>
                     <br />
                     <textarea id="log" rows="30" cols="80"></textarea>
@@ -29,6 +29,10 @@
                             log.value += `code=${e.code} `;
                             log.value += `key=${e.key} `;
                             log.value += `\n`;
+                                if (e.keyCode==229) {
+                                            log.value += 'preventDefault\n';
+                                            e.preventDefault();
+                                }
                     });
             </script>
     </html>
