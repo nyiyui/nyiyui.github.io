@@ -1,6 +1,6 @@
 <html>
             <body>
-                    v6
+                    v7
                     <textarea id="a"></textarea>
                     <br />
                     <textarea id="log" rows="30" cols="80"></textarea>
@@ -15,13 +15,13 @@
                             log.value += `input data=${e.data} type=${e.inputType} code=${e.code}\n`;
                     });
                     a.addEventListener('compositionstart', (e) => {
-                            log.value += `compositionstart\n`;
+                            log.value += `compositionstart ${e.data}\n`;
                     });
                     a.addEventListener('compositionend', (e) => {
-                            log.value += `compositionend\n`;
+                            log.value += `compositionend ${e.data}\n`;
                     });
                     a.addEventListener('compositionupdate', (e) => {
-                            log.value += `compositionupdate\n`;
+                            log.value += `compositionupdate ${e.data}\n`;
                     });
                     a.addEventListener('keydown', (e) => {
                             log.value += `keydown isComposing=${e.isComposing} keyCode=${e.keyCode} `;
