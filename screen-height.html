@@ -5,11 +5,13 @@
     <script>
       setInterval(() => {
         const r = document.getElementById('result');
+        const fs = document.getElementById('fullscreen');
         r.innerText = `screen.availHeight: ${window.screen.availHeight}\n`;
         r.innerText += `screen.height: ${window.screen.height}\n`;
         r.innerText += `visualViewport.height: ${window.visualViewport.height}\n`;
         r.innerText += `innerHeight: ${window.innerHeight}\n`;
         r.innerText += `document.body.clientHeight: ${document.body.clientHeight}\n`;
+        r.innerText += `fullscreen.clientHeight: ${fs.clientHeight}\n`;
         document.getElementById('guide').style.top = `${window.innerHeight - 20}px`;
       }, 100);
     </script>
