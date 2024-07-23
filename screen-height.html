@@ -8,12 +8,40 @@
         r.innerText += `screen.height: ${window.screen.height}\n`;
         r.innerText += `visualViewport.height: ${window.visualViewport.height}\n`;
         r.innerText += `innerHeight: ${window.innerHeight}\n`;
+        document.getElementById('guide').style.bottom = window.innerHeight;
       }, 100);
     </script>
+    <style>
+      #overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+      #guide {
+        position: absolute;
+        left: 0;
+      }
+    </style>
   </head>
   <body>
-    <p id="result"></p>
+    <div id="overlay">
+      <p id="result"></p>
+      <input type='text' />
+    </div>
+    <div id="guide"></div>bottom<div>
     <input type='text' />
+
+
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc volutpat pretium lectus ut ultricies. Curabitur vel lacus tempus, dictum lacus ac, egestas justo. Fusce non vulputate elit, eget varius lorem. Nulla lacinia blandit neque, in pharetra ipsum euismod et. Mauris sollicitudin sem at lacus pellentesque dapibus. Morbi maximus sapien quis iaculis vehicula. Duis eget mi odio. Duis maximus vel ligula vel ullamcorper. Phasellus lacinia elit congue, sollicitudin augue eu, efficitur leo. Ut sem velit, rutrum in purus id, ullamcorper fringilla justo. Mauris consectetur consectetur magna ac sodales. Curabitur aliquet ex vel sem ornare, ut luctus erat porta. Maecenas sagittis, justo tempor pulvinar vehicula, velit nibh hendrerit augue, nec volutpat magna leo volutpat dolor.
+
+Sed imperdiet odio neque. Nam fringilla facilisis lacus eget mollis. Ut fermentum risus tortor, ut sollicitudin neque porta laoreet. Aliquam mattis et justo eu fermentum. Duis ac purus ipsum. Quisque pulvinar eros dapibus, congue sapien eu, tristique metus. Fusce a ornare erat. Aenean gravida auctor gravida. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque tempor congue urna in pretium.
+
+Duis ac cursus massa, elementum porta erat. In a semper urna, sit amet convallis velit. In at augue hendrerit, ornare purus ac, pretium massa. Ut ex magna, condimentum quis sem sit amet, congue imperdiet risus. Phasellus ultricies erat in quam malesuada, dictum vehicula turpis accumsan. Suspendisse eleifend malesuada justo quis mattis. Nullam vehicula elementum odio quis pharetra. In vulputate id felis sed lacinia. Nulla tempus mattis laoreet.
+
+Mauris tristique purus ex, eget rutrum neque blandit id. Morbi vel tincidunt purus. Aenean blandit quam nec lacus imperdiet molestie. Donec tincidunt libero at metus blandit, at varius mauris semper. Sed eget vulputate metus. Nullam eu nisi tempus, sodales ante et, imperdiet dolor. Morbi cursus sed tellus non porttitor. Aenean sed interdum neque. Suspendisse consequat convallis nibh. Praesent sit amet orci a dolor molestie congue. Aenean non arcu ut risus volutpat ultricies. Aliquam molestie, sapien in laoreet lacinia, dolor diam dignissim tortor, ac tincidunt leo tellus quis elit. Vestibulum nec neque metus. Praesent imperdiet velit quis odio pretium suscipit. Etiam lectus leo, auctor a erat vel, cursus imperdiet turpis. Donec elementum eget purus nec maximus.
+
+Curabitur posuere elementum laoreet. Praesent metus dolor, dictum in luctus at, consequat eu arcu. Praesent malesuada vel ligula et scelerisque. Quisque non tortor et magna iaculis pellentesque. Sed convallis, tellus eu sagittis malesuada, metus erat posuere elit, in iaculis massa nisl sodales mi. Sed id aliquam nunc. Sed consectetur vitae metus nec tempus. Nullam dapibus, augue et laoreet sagittis, mi dui congue massa, sed aliquam elit tortor et augue. 
     
   </body>
 </html>
