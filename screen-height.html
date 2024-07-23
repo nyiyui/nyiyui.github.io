@@ -8,7 +8,7 @@
         r.innerText += `screen.height: ${window.screen.height}\n`;
         r.innerText += `visualViewport.height: ${window.visualViewport.height}\n`;
         r.innerText += `innerHeight: ${window.innerHeight}\n`;
-        document.getElementById('guide').style.bottom = window.innerHeight;
+        document.getElementById('guide').style.bottom = window.innerHeight - 20;
       }, 100);
     </script>
     <style>
@@ -18,10 +18,19 @@
         left: 0;
         background: pink;
       }
+      #bottom {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        background: green;
+      }
       #guide {
         position: absolute;
         left: 0;
-        background: green;
+        background: blue;
+        margin: 0;
+        padding: 0;
+        height: 20px;
       }
     </style>
   </head>
@@ -30,7 +39,8 @@
       <p id="result"></p>
       <input type='text' />
     </div>
-    <div id="guide">bottom<div>
+    <div id="bottom">bottom<div>
+    <div id="guide">guide<div>
     <input type='text' />
 
 
