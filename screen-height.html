@@ -2,9 +2,11 @@
   <head>
     <script>
       const r = document.getElementById('result');
-      r.innerText = `screen.availHeight: ${window.screen.availHeight}\n`;
-      r.innerText += `screen.height: ${window.screen.height}\n`;
-      r.innerText += `innerHeight: ${window.innerHeight}\n`;
+      setInterval(() => {
+        r.innerText = `screen.availHeight: ${window.screen.availHeight}\n`;
+        r.innerText += `screen.height: ${window.screen.height}\n`;
+        r.innerText += `innerHeight: ${window.innerHeight}\n`;
+      }, 10);
     </script>
   </head>
   <body>
