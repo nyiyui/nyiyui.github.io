@@ -6,6 +6,7 @@
         const r = document.getElementById('result');
         r.innerText = `screen.availHeight: ${window.screen.availHeight}\n`;
         r.innerText += `screen.height: ${window.screen.height}\n`;
+        r.innerText += `visualViewport.height: ${window.visualViewport.height}\n`;
         r.innerText += `innerHeight: ${window.innerHeight}\n`;
       }, 100);
     </script>
@@ -13,5 +14,6 @@
   <body>
     <p id="result"></p>
     <input type='text' />
+    
   </body>
 </html>
