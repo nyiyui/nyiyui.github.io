@@ -1,0 +1,14 @@
+<html>
+  <head>
+    <script>
+      const a = document.getElementById('a');
+      a.addEventListener('input', (e) => {
+        document.getElementById('r').innerText = JSON.stringify(Array.from(a.value));
+      });
+    </script>
+  </head>
+  <body>
+    <input type='text' id='a' />
+    <span id='r'></span>
+  </body>
+</html>
